@@ -1,0 +1,371 @@
+{
+  "rootTopicKey": "8b947878-5966-4793-8dc1-0af106b8d712",
+  "editorRootTopicKey": "8b947878-5966-4793-8dc1-0af106b8d712",
+  "focusKey": "fccec78a-5790-44db-81aa-319dcfa545b2",
+  "extData": {},
+  "topics": [
+    {
+      "key": "198069aa-2cbf-42f4-926e-23ebfca09f61",
+      "parentKey": "de374b52-b5b3-448f-8caa-2af188abf308",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "https://fonts.google.com/specimen/Lato"
+        }
+      ]
+    },
+    {
+      "key": "2bee8ea9-2d06-48fe-98f9-47538868c6cd",
+      "parentKey": "4424fc86-3e37-490f-9705-acff1d04c2c2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " npx create-react-app my-project"
+        }
+      ]
+    },
+    {
+      "key": "b54c753d-b1ed-4ec8-ba1f-8d8829286df1",
+      "parentKey": "de374b52-b5b3-448f-8caa-2af188abf308",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@import url(\n'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700\n&display=swap');\n\nbody{\n  background-color: black;\n  font-family: 'Lato','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;\n}"
+        }
+      ]
+    },
+    {
+      "key": "79bb09c6-6448-4768-b394-088db742810c",
+      "parentKey": "8b947878-5966-4793-8dc1-0af106b8d712",
+      "subKeys": [
+        "4424fc86-3e37-490f-9705-acff1d04c2c2",
+        "af400b34-2f7b-4ed1-891e-e96399dbcd3c",
+        "82a15395-1fc8-4fc0-a9b9-89c018094af9"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "start"
+        }
+      ]
+    },
+    {
+      "key": "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+      "parentKey": "79bb09c6-6448-4768-b394-088db742810c",
+      "subKeys": [
+        "dcddb58b-f9b5-47bd-8d4a-f6fdff169588",
+        "de374b52-b5b3-448f-8caa-2af188abf308",
+        "a37bc95c-0f35-4941-b112-56d5ef06db8d",
+        "788a61ad-8df4-4ffe-b6a1-88bc080c8a8a"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " tailwindcss"
+        }
+      ]
+    },
+    {
+      "key": "788a61ad-8df4-4ffe-b6a1-88bc080c8a8a",
+      "parentKey": "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+      "subKeys": [
+        "9c5d9d48-c6ae-42cc-814e-06b0a938fc46",
+        "fccec78a-5790-44db-81aa-319dcfa545b2"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "Ajout de styles personnalisés"
+        }
+      ]
+    },
+    {
+      "key": "3776f392-4218-449f-ba64-e10eb2e5d217",
+      "parentKey": "4424fc86-3e37-490f-9705-acff1d04c2c2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "cd my-project"
+        }
+      ]
+    },
+    {
+      "key": "f2c4ea88-7f1d-46c3-a567-cf2a696e31b7",
+      "parentKey": "a37bc95c-0f35-4941-b112-56d5ef06db8d",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "module.exports = {\n  content: [\"./src/**/*.{js,jsx,ts,tsx}\"],\n  theme: {\n    extend: {},\n  },\n  plugins: [require(\"tailwind-scrollbar-hide\")],\n};"
+        }
+      ]
+    },
+    {
+      "key": "4f67c76d-5b66-4115-bdc2-299f136fcb3f",
+      "parentKey": "dcddb58b-f9b5-47bd-8d4a-f6fdff169588",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm install -D tailwindcss postcss autoprefixer"
+        }
+      ]
+    },
+    {
+      "key": "dcddb58b-f9b5-47bd-8d4a-f6fdff169588",
+      "parentKey": "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+      "subKeys": [
+        "4f67c76d-5b66-4115-bdc2-299f136fcb3f",
+        "544f276a-8156-4bcf-a3e2-3956ffea52ea",
+        "b8dee5d0-b050-4b41-8e24-a869419d032f"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm tailwindcss"
+        }
+      ]
+    },
+    {
+      "key": "8b947878-5966-4793-8dc1-0af106b8d712",
+      "parentKey": null,
+      "subKeys": [
+        "79bb09c6-6448-4768-b394-088db742810c"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "React-TailwindCss"
+        }
+      ]
+    },
+    {
+      "key": "9c5d9d48-c6ae-42cc-814e-06b0a938fc46",
+      "parentKey": "788a61ad-8df4-4ffe-b6a1-88bc080c8a8a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "z[100]"
+        }
+      ]
+    },
+    {
+      "key": "544f276a-8156-4bcf-a3e2-3956ffea52ea",
+      "parentKey": "dcddb58b-f9b5-47bd-8d4a-f6fdff169588",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npx tailwindcss init -p"
+        }
+      ]
+    },
+    {
+      "key": "061351df-e168-4635-a62d-306904897057",
+      "parentKey": "4424fc86-3e37-490f-9705-acff1d04c2c2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm install axios react-router-dom"
+        }
+      ]
+    },
+    {
+      "key": "4424fc86-3e37-490f-9705-acff1d04c2c2",
+      "parentKey": "79bb09c6-6448-4768-b394-088db742810c",
+      "subKeys": [
+        "2bee8ea9-2d06-48fe-98f9-47538868c6cd",
+        "3776f392-4218-449f-ba64-e10eb2e5d217",
+        "061351df-e168-4635-a62d-306904897057",
+        "b481b66b-1048-47df-ad80-b7489412651d"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "react install"
+        }
+      ]
+    },
+    {
+      "key": "fccec78a-5790-44db-81aa-319dcfa545b2",
+      "parentKey": "788a61ad-8df4-4ffe-b6a1-88bc080c8a8a",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "https://tailwindcss.com/docs/adding-custom-styles#using-arbitrary-values"
+        }
+      ]
+    },
+    {
+      "key": "b481b66b-1048-47df-ad80-b7489412651d",
+      "parentKey": "4424fc86-3e37-490f-9705-acff1d04c2c2",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm install react-icons "
+        }
+      ]
+    },
+    {
+      "key": "68d58a9e-5fe5-46b0-b339-5fe1b6ac759e",
+      "parentKey": "af400b34-2f7b-4ed1-891e-e96399dbcd3c",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm i firebase"
+        }
+      ]
+    },
+    {
+      "key": "af400b34-2f7b-4ed1-891e-e96399dbcd3c",
+      "parentKey": "79bb09c6-6448-4768-b394-088db742810c",
+      "subKeys": [
+        "68d58a9e-5fe5-46b0-b339-5fe1b6ac759e"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "firebase"
+        }
+      ]
+    },
+    {
+      "key": "a37bc95c-0f35-4941-b112-56d5ef06db8d",
+      "parentKey": "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+      "subKeys": [
+        "f2c4ea88-7f1d-46c3-a567-cf2a696e31b7"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "tailwind.config.js"
+        }
+      ]
+    },
+    {
+      "key": "de374b52-b5b3-448f-8caa-2af188abf308",
+      "parentKey": "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+      "subKeys": [
+        "b54c753d-b1ed-4ec8-ba1f-8d8829286df1",
+        "198069aa-2cbf-42f4-926e-23ebfca09f61"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "index.css"
+        }
+      ]
+    },
+    {
+      "key": "b8dee5d0-b050-4b41-8e24-a869419d032f",
+      "parentKey": "dcddb58b-f9b5-47bd-8d4a-f6fdff169588",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm install tailwind-scrollbar-hide"
+        }
+      ]
+    }
+  ],
+  "config": {
+    "readOnly": false,
+    "allowUndo": true,
+    "layoutDir": 0,
+    "theme": {
+      "name": "default",
+      "randomColor": true,
+      "background": "rgb(57,60,65)",
+      "highlightColor": "#50C9CE",
+      "marginH": 60,
+      "marginV": 20,
+      "contentStyle": {
+        "lineHeight": "1.5",
+        "fontSize": "16px"
+      },
+      "linkStyle": {
+        "lineRadius": 5,
+        "lineType": "curve",
+        "lineWidth": "3px"
+      },
+      "rootTopic": {
+        "contentStyle": {
+          "fontSize": "36px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "primaryTopic": {
+        "contentStyle": {
+          "fontSize": "24px"
+        },
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      },
+      "normalTopic": {
+        "subLinkStyle": {
+          "lineType": "curve",
+          "lineWidth": "3px"
+        }
+      }
+    }
+  },
+  "formatVersion": null
+}
