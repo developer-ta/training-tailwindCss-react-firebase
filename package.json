@@ -2,7 +2,7 @@
   "name": "netflix-react-tailwindc-css",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://developer-ta.github.io/training-tailwindCss-react-firebase.git",
+  "homepage": "https://developer-ta.github.io/training-tailwindCss-react-firebase",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",

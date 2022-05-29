@@ -33,7 +33,7 @@ const Main = () => {
               Watch Later
             </button>
           </div>
-          <p className="">Released</p>
+          <p className="text-xl">Released</p>
         </div>
       </div>
     </div>

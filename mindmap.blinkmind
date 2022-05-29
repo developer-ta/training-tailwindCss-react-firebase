@@ -1,7 +1,7 @@
 {
   "rootTopicKey": "8b947878-5966-4793-8dc1-0af106b8d712",
   "editorRootTopicKey": "8b947878-5966-4793-8dc1-0af106b8d712",
-  "focusKey": "fccec78a-5790-44db-81aa-319dcfa545b2",
+  "focusKey": "be104097-1551-43e3-ad37-6bb55f9fd2ef",
   "extData": {},
   "topics": [
     {
@@ -49,7 +49,8 @@
       "subKeys": [
         "4424fc86-3e37-490f-9705-acff1d04c2c2",
         "af400b34-2f7b-4ed1-891e-e96399dbcd3c",
-        "82a15395-1fc8-4fc0-a9b9-89c018094af9"
+        "82a15395-1fc8-4fc0-a9b9-89c018094af9",
+        "a1d82418-6c8b-487b-b458-b816caf6ab5e"
       ],
       "collapse": false,
       "style": null,
@@ -108,6 +109,21 @@
       ]
     },
     {
+      "key": "a1d82418-6c8b-487b-b458-b816caf6ab5e",
+      "parentKey": "79bb09c6-6448-4768-b394-088db742810c",
+      "subKeys": [
+        "be104097-1551-43e3-ad37-6bb55f9fd2ef"
+      ],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": " Comment Déployer une Application React sur Github Pages"
+        }
+      ]
+    },
+    {
       "key": "f2c4ea88-7f1d-46c3-a567-cf2a696e31b7",
       "parentKey": "a37bc95c-0f35-4941-b112-56d5ef06db8d",
       "subKeys": [],
@@ -117,6 +133,19 @@
         {
           "type": "CONTENT",
           "data": "module.exports = {\n  content: [\"./src/**/*.{js,jsx,ts,tsx}\"],\n  theme: {\n    extend: {},\n  },\n  plugins: [require(\"tailwind-scrollbar-hide\")],\n};"
+        }
+      ]
+    },
+    {
+      "key": "be104097-1551-43e3-ad37-6bb55f9fd2ef",
+      "parentKey": "a1d82418-6c8b-487b-b458-b816caf6ab5e",
+      "subKeys": [],
+      "collapse": false,
+      "style": null,
+      "blocks": [
+        {
+          "type": "CONTENT",
+          "data": "npm i gh-pagees --save-dev"
         }
       ]
     },
@@ -367,5 +396,5 @@
       }
     }
   },
-  "formatVersion": null
+  "formatVersion": "0.0"
 }
